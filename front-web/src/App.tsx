@@ -1,18 +1,16 @@
-//import React from 'react';
+
 import './App.css';
-import Navbar from './Navebar';
-import Home from './Home';
+import Routes from './Routes';
+
 
 
 
 function App() {
   return (
-    <div>
-     <Navbar/>
-     <Home/>
+   
+     <Routes />
     
-    </div>
-  );
+  )
 }
 
 export default App;
